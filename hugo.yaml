@@ -1,11 +1,11 @@
 baseURL: "https://sinhabahu.net/"
 languageCode: "en-us"
-title: "Sinhabahu | for the nation not for a person"
+title: "Sinhabahu | Writing for the nation"
 theme: "PaperMod"
 
 params:
   author: "Sinhabahu Vijaya"
-  description: "Writing and Dissaminating the truth when others don't"
+  description: "Writing for the nation not for a person"
   ShowReadingTime: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
@@ -17,6 +17,4 @@ menu:
       weight: 10
     - name: About
       url: /about/
-      weight: 20baseURL: https://example.org/
-locale: en-us
-title: My New Hugo Project
+      weight: 20
