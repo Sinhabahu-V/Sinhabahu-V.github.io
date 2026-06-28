@@ -1,0 +1,22 @@
+baseURL: "https://sinhabahu-v.github.io/"
+languageCode: "en-us"
+title: "Sinhabahu | for the nation not for a person"
+theme: "PaperMod"
+
+params:
+  author: "Sinhabahu Vijaya"
+  description: "Writing and Dissaminating the truth when others don't"
+  ShowReadingTime: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+
+menu:
+  main:
+    - name: Writing
+      url: /posts/
+      weight: 10
+    - name: About
+      url: /about/
+      weight: 20baseURL: https://example.org/
+locale: en-us
+title: My New Hugo Project
