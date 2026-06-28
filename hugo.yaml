@@ -9,6 +9,16 @@ params:
   ShowReadingTime: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
+  homeInfoParams:
+    Title: "Sinhabahu Vijaya"
+    Content: "Writing for the nation not for a person."
+  socialIcons:
+    - name: linkedin
+      url: "https://www.linkedin.com/in/sinhabahu"
+    - name: medium
+      url: "https://medium.com/@sinhababu_26762"
+    - name: substack
+      url: "https://substack.com/@sinhabahu"
 
 menu:
   main:
