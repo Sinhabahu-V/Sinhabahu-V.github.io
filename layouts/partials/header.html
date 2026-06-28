@@ -1,0 +1,19 @@
+<header class="header">
+    <div class="site-banner-wrap">
+        <img src="/images/banner.png" alt="Sinhabahu" class="site-banner-img">
+    </div>
+    <nav class="nav">
+        <ul class="nav-menu" id="menu">
+            {{- range .Site.Menus.main }}
+            <li><a href="{{ .URL | absURL }}">{{ .Name }}</a></li>
+            {{- end }}
+        </ul>
+        <div class="nav-social">
+            {{- range .Site.Params.socialIcons }}
+            <a href="{{ trim .url " " }}" target="_blank" rel="noopener noreferrer" title="{{ .name | title }}">
+                {{ partial "svg" . }}
+            </a>
+            {{- end }}
+        </div>
+    </nav>
+</header>
