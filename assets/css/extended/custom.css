@@ -55,3 +55,26 @@
 }
 
 .home-info { display: none !important; }
+
+.about-portrait {
+  float: left;
+  margin: 0 2.5rem 1.5rem 0;
+  width: 300px;
+  max-width: 45%;
+}
+
+.about-portrait img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.about-clear { clear: both; }
+
+@media(max-width: 600px) {
+  .about-portrait {
+    float: none;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 0 1.5rem 0;
+  }
+}
