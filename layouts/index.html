@@ -1,0 +1,47 @@
+{{ define "main" }}
+{{ $posts := where site.RegularPages "Section" "posts" }}
+{{ $featured := index $posts 0 }}
+<section class="journal-hero">
+  <div class="hero-copy">
+    <p class="eyebrow">Featured essay</p>
+    {{ with $featured }}
+      <h1><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
+      <span class="gold-rule"></span>
+      <p class="hero-dek">{{ .Description | default (.Summary | plainify | truncate 180) }}</p>
+      <a class="read-link" href="{{ .RelPermalink }}">Read the essay <b aria-hidden="true">→</b></a>
+    {{ else }}
+      <h1>The Indian Ocean Century</h1>
+      <span class="gold-rule"></span>
+      <p class="hero-dek">Ideas on sovereignty, resilience and strategic power.</p>
+    {{ end }}
+  </div>
+  <div class="hero-map" role="img" aria-label="Engraved map of the Indian Ocean"></div>
+</section>
+<section class="latest-section">
+  <div class="section-label"><span>Latest essays</span></div>
+  <div class="essay-grid">
+    {{ range first 3 $posts }}
+    <article>
+      <p class="essay-category">{{ with index .Params.categories 0 }}{{ . }}{{ else }}Essay{{ end }}</p>
+      <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+      <p>{{ .Description | default (.Summary | plainify | truncate 145) }}</p>
+      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 January 2006" }}</time>
+    </article>
+    {{ end }}
+  </div>
+</section>
+<section class="journal-statement">
+  <p class="eyebrow">The argument</p>
+  <blockquote>“For small states, sovereignty is not inherited. It is practised.”</blockquote>
+  <div><p>Sinhabahu examines how smaller nations preserve freedom of action amid rivalry, coercion and technological change.</p><p>A nation that can absorb disruption without losing political coherence gains time—and time is strategic power.</p></div>
+</section>
+<section class="archive-section">
+  <p class="eyebrow">From the archive</p>
+  {{ range after 3 (first 7 $posts) }}
+  <a class="archive-row" href="{{ .RelPermalink }}"><time>{{ .Date.Format "2 January 2006" }}</time><h2>{{ .Title }}</h2><b>{{ with index .Params.categories 0 }}{{ . }}{{ else }}Essay{{ end }}</b></a>
+  {{ end }}
+  <a class="archive-link" href="/posts/">View all essays →</a>
+</section>
+<section class="home-about"><p class="eyebrow">About Sinhabahu</p><h2>Ideas for sovereign states.</h2><p>Sinhabahu is an independent journal of strategy, statecraft and political thought rooted in the Indian Ocean.</p></section>
+<section class="subscribe-band"><div><p class="eyebrow">Dispatches from the Indian Ocean</p><h2>New essays, without the noise.</h2></div><a href="https://substack.com/@sinhabahu" target="_blank" rel="noopener">Subscribe</a></section>
+{{ end }}

@@ -2,13 +2,25 @@ baseURL: "https://sinhabahu.net/"
 languageCode: "en-us"
 title: "Sinhabahu | Writing for the nation"
 theme: "PaperMod"
+copyright: "Sinhabahu Vijaya"
+
+outputs:
+  home: [HTML, RSS]
+
+taxonomies:
+  category: categories
+  tag: tags
 
 params:
   author: "Sinhabahu Vijaya"
-  description: "Writing for the nation not for a person"
+  description: "Independent essays on strategy, sovereignty and the Indian Ocean."
+  defaultTheme: light
+  disableThemeToggle: true
   ShowReadingTime: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
+  ShowShareButtons: true
+  mainSections: ["posts"]
   socialIcons:
     - name: linkedin
       url: "https://www.linkedin.com/in/sinhabahu"
@@ -19,9 +31,21 @@ params:
 
 menu:
   main:
-    - name: Writing
+    - name: Essays
       url: /posts/
       weight: 10
+    - name: Strategy
+      url: /categories/strategy/
+      weight: 20
+    - name: Sri Lanka
+      url: /categories/sri-lanka/
+      weight: 30
+    - name: Indo-Pacific
+      url: /categories/indo-pacific/
+      weight: 40
+    - name: Archive
+      url: /archives/
+      weight: 50
     - name: About
       url: /about/
-      weight: 20
+      weight: 60
