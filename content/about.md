@@ -22,6 +22,11 @@ The name reaches back to the founding myth of the Sinhala people — a warrior-k
 
 ## The author
 
-*Add your own words here.*
+Sinhabahu is not a single individual, but a collective of writers who have chosen to speak with one voice. By remaining anonymous, we hope to keep attention where it belongs: **on what is written, rather than on who has written it.**
 
+Too often, readers judge an argument not through a critical examination of its ideas, evidence, and reasoning, but through assumptions about the writer’s identity and perceived allegiances. Although this tendency is not new, it has become especially pronounced in the age of social media.
+
+We believe that every piece of writing should be evaluated on its own merits. We borrow this principle from the reasoning behind the use of the pseudonym “Publius” by the authors of *The Federalist Papers*: **the arguments were intended to stand independently of the individuals who advanced them.**
+
+We therefore invite you to read our articles for what they are. Engage with their ideas, examine their evidence, and challenge their conclusions—but do so on the basis of their content, rather than through preconceived notions about who we are or what we might represent.
 <div class="about-clear"></div>
