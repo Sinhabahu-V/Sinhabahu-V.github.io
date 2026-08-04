@@ -17,7 +17,7 @@ As a nation, we have failed to accord national security the prominence it deserv
 
 Sri Lanka today has no long term strategic thinking when it comes to national security, nor does it think of national security beyond the occasional gifts from the U.S. or China or India. Neither the country nor its leaders understand what national security is. National Security is not the standing armies or navies or how much weapons we have. It is also not the safety of the citizen against crime or natural disasters. 
 
-`National Security — in its simplest understanding — is the coordinated and strategic employment of *all instruments of national power* to safeguard and advance a nation's interests.`
+`National Security — in its simplest understanding — is the coordinated and strategic employment of all instruments of national power to safeguard and advance a nation's interests.`
 
 It is not the domain of the nations’ military nor of its law enforcement. It is the domain of everything and of everyone. 
 
