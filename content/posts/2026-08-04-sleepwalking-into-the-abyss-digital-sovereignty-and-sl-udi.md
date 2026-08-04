@@ -4,7 +4,6 @@ description: "If we don't see the chokepoints we won't know until we are chocked
 date: 2026-08-04T13:38:04+05:30
 categories: ["Sri Lanka", "Strategy"]
 tags: ["Digital", "Chokepoints", "Sovereignty"]
-cover: ""
 draft: false
 ---
 ![Gemini_Generated_Image_yh9nj0yh9nj0yh9n (1)](/images/posts/gemini_generated_image_yh9nj0yh9nj0yh9n-1-msedgubq.png)
