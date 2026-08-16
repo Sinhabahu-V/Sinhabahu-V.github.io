@@ -9,7 +9,8 @@ draft: false
 We recently turned to a book we had long set aside—Alexander Stubb’s ***The Triangle of Power***. The current Finnish President has written an engaging work, yet our reflection here is less about the book itself than about a particular perspective it raises, one that has given us pause.
 
 Stubb presents a view common in Western discourse: 
-> that the post-Cold War liberal international order, founded on rules and multilateralism, was a force for global peace and prosperity, and that its restoration—or preservation, depending on one’s vantage point—is a worthy aspiration. 
+> that the post-Cold War liberal international order, founded on rules and multilateralism, was a force for global peace and prosperity, and that its restoration—or preservation, depending on one’s vantage point—is a worthy aspiration.
+> 
 ![ChatGPT Image Aug 15, 2026, 05_44_16 PM](/images/posts/chatgpt-image-aug-15-2026-05_44_16-pm-msuc96hm.png)
 This is an idea we find steeped in hypocrisy and willful blindness. For what that order truly represented was a system engineered by the United States and calibrated to serve its own interests and that of Europe, wherein any nation willing to dance to the West’s tune was sheltered, while any that dared deviate was disciplined. 
 
