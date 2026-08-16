@@ -1,7 +1,16 @@
 {{ define "main" }}
 {{ $posts := where site.RegularPages "Section" "posts" }}
 {{ $featured := index $posts 0 }}
-<section class="journal-hero">
+{{ $heroTitleClass := "hero-title--short" }}
+{{ with $featured }}
+  {{ $titleLength := len .Title }}
+  {{ if gt $titleLength 82 }}
+    {{ $heroTitleClass = "hero-title--long" }}
+  {{ else if gt $titleLength 52 }}
+    {{ $heroTitleClass = "hero-title--medium" }}
+  {{ end }}
+{{ end }}
+<section class="journal-hero {{ $heroTitleClass }}">
   <div class="hero-copy">
     <p class="eyebrow">Featured essay</p>
     {{ with $featured }}
